@@ -1074,5 +1074,7 @@ footer{
     .c-box button{
         margin-left: 60%;
     }
-    
+    footer{
+        font-size:16px;
+    }
 }
