@@ -816,15 +816,6 @@ footer{
     border-top-left-radius: 5px;
     cursor: pointer;
 }
-footer span{
-    font-size: 25px;
-    margin-right: 5px;
-}
-footer i{
-    color:#ffffff;
-    margin: 0 5px;
-    font-size: 30px;
-}
 /* 1650 */
 @media (max-width:1650px){
     .c-box{
