@@ -267,6 +267,20 @@ section{
     font-weight: 700;
     color: var(--new-font);
     font-size: 50px;
+    position: relative;
+}
+.about p::before{
+    content: attr(REFL-TEXT);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    line-height: 52px;
+    transform-origin: bottom;
+    background: linear-gradient(to top,var(--new-font),transparent);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.2;
 }
 .education{
     display: flex;
@@ -391,6 +405,20 @@ section{
     font-weight: 700;
     color: var(--new-font);
     font-size: 50px;
+    position: relative;
+}
+.skill p::before{
+    content: attr(REFL-TEXT);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    line-height: 52px;
+    transform-origin: bottom;
+    background: linear-gradient(to top,var(--new-font),transparent);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.2;
 }
 .skillbox{
     display: flex;
@@ -501,6 +529,20 @@ section{
     font-weight: 700;
     color: var(--new-font);
     font-size: 50px;
+    position: relative;
+}
+.project p::before{
+    content: attr(REFL-TEXT);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    line-height: 52px;
+    transform-origin: bottom;
+    background: linear-gradient(to top,var(--new-font),transparent);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.2;
 }
 .display-projects{
     padding:0 10%;
@@ -631,6 +673,20 @@ section{
     font-weight: 700;
     color: var(--new-font);
     font-size: 50px;
+    position: relative;
+}
+.experiences p::before{
+    content: attr(REFL-TEXT);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    line-height: 52px;
+    transform-origin: bottom;
+    background: linear-gradient(to top,var(--new-font),transparent);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.2;
 }
 .experience-box{
     display: flex;
@@ -704,6 +760,20 @@ section{
     font-weight: 700;
     color: var(--new-font);
     font-size: 50px;
+    position: relative;
+}
+.contact p::before{
+    content: attr(REFL-TEXT);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    line-height: 52px;
+    transform-origin: bottom;
+    background: linear-gradient(to top,var(--new-font),transparent);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.2;
 }
 .contact-box{
     display: flex;
@@ -764,6 +834,7 @@ section{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
 .contact-btn button{
     width: fit-content;
@@ -1076,10 +1147,5 @@ footer{
     .c-box{
         padding: 20px 0;
     }
-    .contact-btn button{
-        margin:0 20px 0 0!important;
-    }
-    footer{
-        font-size:16px;
-    }
+    
 }
