@@ -760,7 +760,12 @@ section{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-.c-box button{
+.contact-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contact-btn button{
     width: fit-content;
     padding: 5px 30px;
     border-radius: 10px;
@@ -770,8 +775,8 @@ section{
     color: #ffffff;
     border: 1px solid var(--new-font);
     margin: 15px 0;
-    margin-left: 70%;
     cursor: pointer;
+    margin-right: 20px;
 }
 .personal-details{
     display: flex;
