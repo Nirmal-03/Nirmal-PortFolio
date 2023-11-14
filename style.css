@@ -16,6 +16,7 @@
     --box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     --project-box:0 25px 50px -12px rgba(0,0,0,0.25);
     --contact-border:#838383;
+    --text-optacity:0.2;
 }
 .dark-theme{
     --font-color:#ffffff;
@@ -24,6 +25,7 @@
     --box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
     --project-box:0 25px 50px -12px rgba(255,255,255,0.25);
     --contact-border:#F5F5F5;
+    --text-optacity:0.3;
 }
 body{
     background-color: var(--bg-color);
@@ -280,7 +282,7 @@ section{
     background: linear-gradient(to top,var(--new-font),transparent);
     -webkit-background-clip: text;
     color: transparent;
-    opacity: 0.2;
+    opacity: var(--text-optacity);
 }
 .education{
     display: flex;
@@ -418,7 +420,7 @@ section{
     background: linear-gradient(to top,var(--new-font),transparent);
     -webkit-background-clip: text;
     color: transparent;
-    opacity: 0.2;
+    opacity: var(--text-optacity);
 }
 .skillbox{
     display: flex;
@@ -542,7 +544,7 @@ section{
     background: linear-gradient(to top,var(--new-font),transparent);
     -webkit-background-clip: text;
     color: transparent;
-    opacity: 0.2;
+    opacity: var(--text-optacity);
 }
 .display-projects{
     padding:0 10%;
@@ -686,7 +688,7 @@ section{
     background: linear-gradient(to top,var(--new-font),transparent);
     -webkit-background-clip: text;
     color: transparent;
-    opacity: 0.2;
+    opacity: var(--text-optacity);
 }
 .experience-box{
     display: flex;
@@ -773,7 +775,7 @@ section{
     background: linear-gradient(to top,var(--new-font),transparent);
     -webkit-background-clip: text;
     color: transparent;
-    opacity: 0.2;
+    opacity: var(--text-optacity);
 }
 .contact-box{
     display: flex;
