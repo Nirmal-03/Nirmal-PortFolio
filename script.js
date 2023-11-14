@@ -58,4 +58,16 @@ popBtn.forEach((btn)=>{
   document.getElementById('closeBtn').addEventListener('click', function () {
     document.getElementById('popBox').style.display = 'none';
   });
+
+  document.getElementById('closeBtn').addEventListener('click', function () {
+    document.getElementById('popBox').style.display = 'none';
+  });
+
+let speech=new SpeechSynthesisUtterance();
+
+document.querySelector(".contact-btn .voice-text").addEventListener("click",()=>{
+    speech.text=document.querySelector("#meassage-box").value;
+    window.speechSynthesis.speak(speech);
+})
+  
   
