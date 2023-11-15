@@ -516,6 +516,7 @@ section{
 
 #projects{
     padding-top: 100px;
+    height:100vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
