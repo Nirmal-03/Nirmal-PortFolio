@@ -146,7 +146,7 @@ section{
 
 /* section */
 section{
-    height: 100vh;
+    height: fit-content;
 }
 
 /* home section */
