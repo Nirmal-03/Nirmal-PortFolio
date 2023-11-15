@@ -153,6 +153,7 @@ section{
 #home{
     display: flex;
     margin-top: 20px;
+    padding-top: 100px;
 }
 .home-col1{
     width: 50%;
